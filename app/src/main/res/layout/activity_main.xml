@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.specialcard.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/heart_rainbow"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:id="@+id/just_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="24dp"
+        android:paddingBottom="0dp"
+        android:text="Just Because" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:text="You're Always Thinking of Me"
+        android:paddingLeft="36dp"
+        android:layout_below="@id/just_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:padding="24dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:text="I just want to take the time to say thank you for all that you have done. Thank you for your constant support of my dreams, it is because of you this app is possible.\n
+        Thanks for always telling me to chase my dreams. I just want to let you know that there is not a minute of the day that I am not thinking of you too!"/>
+
+    <TextView
+        android:id="@+id/love_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="24dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:text="Love, DC"/>
+
+
+</RelativeLayout>
